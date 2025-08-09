@@ -1,8 +1,8 @@
 # Enterprise Lab
 
-- pfSense
-- AD/DC
+- pfSense firewall
+- Active Directory (DC)
 - File Server
 - VPN
-- Clients
+- Windows + Linux clients
 
