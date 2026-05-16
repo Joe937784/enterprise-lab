@@ -1,3 +1,4 @@
+
 # Enterprise Lab
 
 Building a complete enterprise-grade IT infrastructure from scratch on a single workstation.
@@ -20,6 +21,16 @@ A portfolio project demonstrating end-to-end design and operation of a small ent
 - **Host:** AMD Ryzen 7 7800X3D, 32 GB DDR5, RTX 4070 12 GB, 1.82 TB NVMe
 - **Hypervisor:** VMware Workstation Pro 17 (free for personal use)
 - **Internal AD domain:** corp.joe.lab
+
+## Architecture
+
+![Network topology](diagrams/network-topology.png)
+
+5-zone segmented network with stateful firewall enforcement:
+- MGMT, SERVERS, USERS, DMZ, RED zones
+- Default-deny on RED (attack lab isolation)
+- AD ports only between USERS and SERVERS
+- See [docs/network-plan.md](docs/network-plan.md) for full IP plan
 
 ## Current phase
 
