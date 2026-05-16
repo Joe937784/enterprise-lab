@@ -24,7 +24,7 @@ A portfolio project demonstrating end-to-end design and operation of a small ent
 
 ## Architecture
 
-![Network topology](diagrams/network-topology.png)
+![Network topology](diagrams/network-topology.pkt)
 
 5-zone segmented network with stateful firewall enforcement:
 - MGMT, SERVERS, USERS, DMZ, RED zones
