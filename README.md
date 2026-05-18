@@ -39,7 +39,7 @@ A portfolio project demonstrating end-to-end design and operation of a small ent
 ## Phases
 
 - [x] Phase 0 — PC prep, toolkit, repo
-- [ ] Phase 1 — Network foundation (pfSense, VLANs, firewall)
+- [x] Phase 1 — Network foundation (pfSense, VLANs, firewall)
 - [ ] Phase 2 — Active Directory core (DC01, DC02)
 - [ ] Phase 3 — Endpoints + Intune/Entra hybrid identity
 - [ ] Phase 4 — File services + Veeam backup
